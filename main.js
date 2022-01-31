@@ -7,6 +7,39 @@ $(document).ready(function() {
         $('.section').css('transform', 'translateX(1px)')
     })
 
+    $('.btn1').on('click', function () {
+        $('.send1').css('background', '#2ED47A')
+        $(' .simileText').css('color', '#FFFF')
+        $(' .btn1').css('background', '#FFB946')
+
+    })
+
+    $('.btn_2').on('click', function () {
+        $('.send2').css('background', '#2ED47A')
+        $(' .simileText2').css('color', '#FFFF')
+        $(' .btn_2').css('background', '#FFB946')
+
+    })
+
+    $('.btn3').on('click', function () {
+        $('.send3').css('background', '#2ED47A')
+        $(' .simileText3').css('color', '#FFFF')
+        $(' .btn3').css('background', '#FFB946')
+        
+    })
+
+    $('.btn21').on('click', function () {
+        $('.send1').css('display', 'none')
+    })
+
+    $('.btn22').on('click', function () {
+        $('.send2').css('display', 'none')
+    })
+
+    $('.btn23').on('click', function () {
+        $('.send3').css('display', 'none')
+    })
+
 })
 
 Morris.Area({

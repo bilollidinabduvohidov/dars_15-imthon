@@ -289,3 +289,30 @@ nav{
     font-weight: 300;
     font-family: 'Poppins', sans-serif;
     color: #192A3E;
+}
+
+.sectopna_suptext span{
+    color: #109CF1;
+}
+
+.fg{
+    padding-left: 5px;
+}
+
+.loanding{
+    margin: 0 auto;
+    border: 1px solid #00000010;
+    border-radius: 10px;
+    width: 90%;
+    height: 8px;
+    background: #EBEFF2;
+}
+
+.loanding_box{
+    height: 7px;
+    border-radius: 10px;
+    background: #2ED47A;
+    margin-top: -1px;
+}
+
+

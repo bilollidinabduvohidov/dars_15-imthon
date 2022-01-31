@@ -30,7 +30,8 @@ img{
     position: relative;
     width: 256px;
     height: 850px;
-    border: 1px solid #000;
+    box-shadow: 1px 1px 10px 1px #00000038;
+    
 }
 
 .asaid_text{
@@ -44,7 +45,8 @@ img{
     cursor: pointer;
     width: 100%;
     position: relative;
-    border-bottom: 1px solid #0000003a;
+    border-bottom: 1px solid #5c59593d;
+    box-shadow: 6px 2px 8px 0px #5f5f5f38;
 }
 
 .d-flex{
@@ -157,7 +159,7 @@ img{
     box-sizing: border-box;
     width: 1440px;
     height: 850px;
-    border: 1px solid #000;
+    box-shadow: 1px 5px 10px 0px #00000038;
     transition: 1s;
 }
 
@@ -190,7 +192,6 @@ nav{
 }
 
 
-
 .box{
     position: relative;
     box-sizing: border-box;
@@ -204,7 +205,6 @@ nav{
     position: absolute;
     width: 635px;
     height: 718px;
-    border: 1px solid #00000049;
     background: #FFFFFF;
     box-shadow: 1px 1px 10px 1px #00000038;
     border-radius: 5px;
@@ -422,3 +422,25 @@ nav{
 }
 
 
+.btn{
+    position: absolute;
+    top: 70%;
+    border: none;
+    background: #2ed47a;
+    color: #FFFF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn2{
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    border: none;
+    background: red;
+    color: #FFFF;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}

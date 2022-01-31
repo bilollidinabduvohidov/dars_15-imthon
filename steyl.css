@@ -411,4 +411,14 @@ nav{
     border-radius: 30px;
 }
 
+.send_righr_text{
+    text-align: end;
+    margin-top: -55px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #90A0B7;
+    font-weight: 600;
+    transition: .5s;
+}
+
 

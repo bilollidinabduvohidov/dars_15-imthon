@@ -17,6 +17,7 @@ a{
 
 img{
     width: 100%;
+    color: #6abff82a;
 }
 
 .container{
@@ -96,6 +97,7 @@ img{
     font-weight: 500;
     margin-left: 20px;
     color: #334D6E;
+    cursor: pointer;
     transition: .3s;
 }
 
@@ -178,7 +180,7 @@ nav{
 .searc{
     font-size: 15px;
     position: relative;
-    right: -1.60%;
+    right: -1.50%;
 }
 
 .navbar-icon{
@@ -203,22 +205,87 @@ nav{
     width: 635px;
     height: 718px;
     border: 1px solid #00000049;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 10px 1px #00000038;
+    border-radius: 5px;
 }
 
 .section_box1{
+    border-radius: 5px;
     top: 5.50%;
     left: 59%;
     position: absolute;
     width: 445px;
     height: 344px;
-    border: 1px solid #00000049;
+    box-shadow: 1px 1px 10px 1px #00000038;
 }
 
 .section_box2{
+    border-radius: 5px;
     bottom: 5.88%;
     left: 59%;
     position: absolute;
     width: 445px;
     height: 344px;
-    border: 1px solid #00000049;
+    box-shadow: 1px 1px 10px 1px #00000038;
 }
+
+.section_smile_box1{
+    background: #FFFFFF;
+    position: relative;
+    bottom: 105%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+}
+
+.section_smile_box2{
+    position: relative;
+    top: -105%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 10px;
+}
+
+.simile_text{
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.simile_suptext{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.simile_suptext span{
+    color: #109CF1;
+}
+
+.down{
+    padding-left: 5px;
+}
+
+.section_main_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.sectiona_text{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #192A3E;
+}
+
+.sectopna_suptext{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    color: #192A3E;

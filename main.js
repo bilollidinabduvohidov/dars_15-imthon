@@ -31,3 +31,12 @@ Morris.Area({
   });
 
   Morris.Donut({
+    element: 'donut-example',
+
+    data: [
+      {label: "45%", value: 45, color: '#FFB946',},
+      {label: "60%", value: 60, color: '#2ED47A'},
+      {label: "20%", value: 20, color: '#F7685B'}
+    ],
+
+  });

@@ -1,0 +1,21 @@
+.loanding_box{
+    animation-name: ladding;
+    animation-duration: 70s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction:normal;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+@keyframes ladding {
+    from {
+        width: 10px;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+
